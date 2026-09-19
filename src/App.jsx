@@ -12,26 +12,26 @@ const links = [
   {
     title: "MENU",
     subtitle: "Explore our dishes",
-    href: "#menu",
+    href: "https://chaykhana-menu-sijf.vercel.app/",
     icon: "menu",
     featured: true,
   },
   {
     title: "INSTAGRAM",
     subtitle: "Behind the scenes",
-    href: "https://instagram.com/",
+    href: "https://www.instagram.com/chayhana_gimhea/",
     icon: "instagram",
   },
   {
     title: "TELEGRAM",
     subtitle: "News & updates",
-    href: "https://t.me/",
+    href: "https://t.me/chayhana_gimhae",
     icon: "telegram",
   },
   {
     title: "ADDRESS",
     subtitle: "Find us on the map",
-    href: "https://maps.google.com/",
+    href: "https://www.google.com/maps/search/?api=1&query=%EA%B2%BD%EB%82%A8+%EA%B9%80%ED%95%B4%EC%8B%9C+%EC%84%9C%EC%83%81%EB%8F%99+100-3%EB%B2%88%EC%A7%80",
     icon: "address",
   },
 ];
