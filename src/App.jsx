@@ -78,7 +78,7 @@ export default function App() {
           <p className="hero-copy">
             GOOD FOOD
             <br />
-            BRINGS PEOPLE TOGETHER
+            UZBEKISTAN TRADITIONAL FOODS
           </p>
 
           <span className="hero-divider" aria-hidden="true" />
