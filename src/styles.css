@@ -56,11 +56,39 @@ a {
   align-items: center;
   padding-top: min(13vw, 56px);
   color: #fff9e7;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(circle at 50% 22%, rgba(39, 108, 190, 0.22), transparent 34%),
+    linear-gradient(180deg, #154f9d 0%, #0f4a94 58%, #0c447f 100%);
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: -28px;
+  z-index: -1;
+  opacity: 0.34;
   background-image:
-    linear-gradient(rgba(13, 67, 135, 0.02), rgba(13, 67, 135, 0.02)),
-    url("https://raw.githubusercontent.com/Alikhaydarov/CHAYKHANA-MENU/main/public/assets/chayhana-pattern-bg.jpg");
-  background-size: cover;
-  background-position: center center;
+    linear-gradient(135deg, transparent 38%, #062f68 39% 47%, transparent 48% 52%, #062f68 53% 61%, transparent 62%),
+    linear-gradient(45deg, transparent 38%, #062f68 39% 47%, transparent 48% 52%, #062f68 53% 61%, transparent 62%);
+  background-size: 132px 132px;
+  background-position: 0 0, 66px 66px;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(15, 79, 158, 0.08), rgba(2, 44, 96, 0.1));
+}
+
+.brand-logo,
+.hero-copy,
+.hero-divider {
+  position: relative;
+  z-index: 1;
 }
 
 .brand-logo {
