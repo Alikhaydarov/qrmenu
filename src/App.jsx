@@ -75,11 +75,7 @@ export default function App() {
         <header className="hero">
           <img className="brand-logo" src={LOGO} alt="CHAYHANA EST.2004" />
 
-          <p className="hero-copy">
-            GOOD FOOD
-            <br />
-            UZBEKISTAN TRADITIONAL FOODS
-          </p>
+          <p className="hero-copy">UZBEKISTAN TRADITIONAL FOODS</p>
 
           <span className="hero-divider" aria-hidden="true" />
         </header>
