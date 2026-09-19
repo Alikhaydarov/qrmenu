@@ -6,8 +6,7 @@ import {
   Utensils,
 } from "lucide-react";
 
-const LOGO =
-  "https://raw.githubusercontent.com/Alikhaydarov/CHAYKHANA-MENU/main/public/assets/chayhana-logo.svg";
+const LOGO = "/chayhana-logo.svg";
 
 const links = [
   {
